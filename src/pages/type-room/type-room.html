@@ -1,0 +1,53 @@
+<ion-header>
+
+  <ion-navbar hideBackButton color="coral">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>ประเภทห้องเช่า</ion-title>
+  </ion-navbar>
+
+
+</ion-header>
+
+<ion-content padding>
+  <ion-item (click)="gotoCondo()">
+    <div item-left>
+      <img src="assets/imgs/condo.png" style="display: block;width: 90px; height: 90px;">
+    </div>
+    <ion-icon item-right>
+      <ion-icon name="ios-arrow-forward-outline"></ion-icon>
+    </ion-icon>
+    <h2>คอนโดมิเนียม</h2>
+  </ion-item>
+
+  <ion-item (click)="gotoApart()">
+    <div item-left>
+      <img src="assets/imgs/apart.png" style="display: block;width: 90px; height: 90px;">
+    </div>
+    <ion-icon item-right>
+      <ion-icon name="ios-arrow-forward-outline"></ion-icon>
+    </ion-icon>
+    <h2>อพาร์ทเมนท์</h2>
+  </ion-item>
+
+  <ion-item (click)="gotoMan()">
+    <div item-left>
+      <img src="assets/imgs/mansion.png" style="display: block;width: 90px; height: 90px;">
+    </div>
+    <ion-icon item-right>
+      <ion-icon name="ios-arrow-forward-outline"></ion-icon>
+    </ion-icon>
+    <h2>แมนชั่น</h2>
+  </ion-item>
+
+  <ion-item (click)="gotoDorm()">
+    <div item-left>
+      <img src="assets/imgs/dorm.jpg" style="display: block;width: 90px; height: 90px;">
+    </div>
+    <ion-icon item-right>
+      <ion-icon name="ios-arrow-forward-outline"></ion-icon>
+    </ion-icon>
+    <h2>หอพัก</h2>
+  </ion-item>
+</ion-content>
